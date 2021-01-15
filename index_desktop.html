@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles_page1.css" rel="stylesheet">
+        <title>Mercedes Benz Dealership</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+
+    <body>
+
+    <div class ="header">
+
+   <div id="title"  class="center"><h1>Mercedes Benz Dealership</h1></div>
+
+
+    <div id ="logo">
+
+    <a class="link_home" href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/index_desktop.html">
+    <img src="logo_mercedes.svg" alt="Logo" style="width:5%"> </div>
+    </a>
+
+    <h1>Mercedes-Benz</h1>
+
+    <h5>The Best or Nothing </h5>
+
+   </div>
+
+    <div id="result1">
+        <h1> Good day Buyer!</h1>
+    </div>
+     <pre>
+
+     </pre>
+
+    <h5>Please tell us your name so that you  can have a more personalize experience?</h5>
+
+        <form onsubmit="greet(); return false">
+            <input type ="text" id="name">
+            <input type="submit">
+        </form>
+
+<div class="pagination">
+  <a href="#" >&laquo;</a>
+  <a class="active" href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/index_desk.html">1</a>
+  <a href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/page_2_desktop.html">2</a>
+  <a href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/page_3_desktop.html">3</a>
+  <a href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/page_4_desktop.html">4</a>
+  <a href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/page_5_desktop.html">5</a>
+  <a href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/page_2_desktop.html">&raquo;</a>
+</div>
+
+
+<div class="toppane">
+    <h1> Choose your model</h1>
+
+    <pre>
+     </pre>
+
+</div>
+<div class="leftpane" style="border:5px solid white;">
+
+    <h4 style = "position:absolute; left:10px; top:380px; color:white;">Choose your design?</h4>
+
+    <select id ="designs_s" onchange="changeText_s(this.value);" style = "position:absolute; left:230px; top:385px;" class= "btn btn-dark";>
+
+        <option value="10">Select your design</option>
+        <option value="11">Standard </option>
+        <option value="12">AMG Line</option>
+        <option value="13" >AMG Line Plus</option>
+
+    </select>
+
+    <div id="description_s" style = "position:absolute; left:5px; top:440px;" class= "btn btn-dark";>
+
+        <h4 align="center">Top-of-the-line Mercedes-Benz model and was officially introduced in 1972 with the W116, and has remained in use ever since. The S-Class is the flagship vehicle for Mercedes-Benz.</h4>
+
+        <br>
+        <br>
+
+        <h4 align="center">Starting price from US $76,980</h4>
+
+    </div>
+
+    <h1 class="models">S Class</h1>
+    <img class="main_c" style = "position:relative;" src = "Mercho S pagina.jpg" alt ="Mercho" width="584" height="310">
+    <button id="position_select" type="button" class= "btn btn-dark"><a class="link_color" href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/page_2_desktop.html">
+        <h5>I want to see more about this S model!</h5></a></button>
+
+</div>
+
+<div class="middlepane" style="border:5px solid white;">
+
+    <h4 style = "position:absolute; left:10px; top:380px; color:white;">Choose your design?</h4>
+
+    <select id ="designs_e"  onchange="changeText_e(this.value);" style = "position:absolute; left:230px; top:385px;" class= "btn btn-dark";>
+
+        <option value="5">Select your design</option>
+        <option value="6">Standard </option>
+        <option value="7">AMG Line</option>
+        <option value="8" >Exclusive</option>
+        <option value="9">AvantGarde</option>
+
+    </select>
+
+     <div id="description_e" style = "position:absolute; left:5px; top:440px;" class= "btn btn-dark";>
+
+        <h4 align="center">Produced since 1953, the E-Class falls midrange in the Mercedes line-up, and has been marketed worldwide across five generations. </h4>
+
+        <br>
+        <br>
+        <br>
+        <h4 align="center" >Starting price from US $16,995</h4>
+
+    </div>
+
+
+
+    <h1 class="models"> E Class </h1>
+    <img src = "Mercho E pagina.jpeg" alt ="Mercho" width="602" height="310">
+    <button id="position_select" type="button" class= "btn btn-dark"> <a class="link_color" href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/page_3_desktop.html">
+        <h5>I want to see more about this E model!</h5></a></button>
+
+</div>
+
+<div class="rightpane" style="border:5px solid white;">
+
+        <h4 style = "position:absolute; left:10px; top:380px; color:white;">Choose your design?</h4>
+
+    <select id ="designs_C" onchange="changeText_c(this.value);" style = "position:absolute; left:230px; top:385px;" type="button" class= "btn btn-dark";>
+
+        <option value="0">Select your design</option>
+        <option value="1">Standard </option>
+        <option value="2">AMG Line</option>
+        <option value="3" >Exclusive</option>
+        <option value="4">AvantGarde</option>
+
+    </select>
+
+
+    <div id="description_c" style = "position:absolute; left:5px; top:440px;" class= "btn btn-dark";>
+
+        <h4 align="center">One in five Mercs sold is a C-Class, and if you lump in the old 190 saloon that went before it, this is a car that’s sold nearly ten million units since 1982. </h4>
+
+        <br>
+        <br>
+        <br>
+        <h4 align="center" >Starting price from US $11,999</h4>
+
+    </div>
+
+
+    <h1 class="models">C Class</h1>
+    <img src = "C model mercho pagina.jpeg" alt ="Mercho"width="584" height="310">
+    <button id="position_select"  type="button" class= "btn btn-dark"><a class="link_color" href="https://ide-62c98762e3004fed8314224d63f97b70-8080.cs50.xyz/pset8/homepage/page_4_desktop.html">
+       <h5> I want to see more about this C model !  </h5></a></button>
+
+</div>
+
+
+    </body>
+
+<script>
+
+            document.querySelector("#r").onclick = function(){
+            document.querySelector("body").style.backgroundColor = "black";
+        }
+
+        document.querySelector("#g").onclick = function(){
+            document.querySelector("body").style.backgroundColor ="green";
+        }
+
+        document.querySelector("#b").onclick= function(){
+            document.querySelector("body").style.backgroundColor ="blue";
+        }
+
+        function greet()
+        {
+            var name = document.querySelector("#name").value;
+            if (name!=="")
+            {
+                document.querySelector("#result1 h1").innerHTML ="Good day, " + name;
+            }
+        }
+
+</script>
+
+<script>
+
+    var data_c = {
+    0: "Choose a Design to see more info about this model!",
+    1: "The standard exterior is highly attractive from any angle. The focus is on a harmonious interplay between the design features for a stylish overall impression with a sporty touch. With the standard interior you are opting for timeless appeal. Flowing forms, dark elegance and subtle contrasts result in a puristic overall impression and interpret modern luxury in a completely new way.",
+    2: "The Expressive bodystyling of the AMG Line lends the exterior of the C-Class a sporty, exclusive touch. As such you can make a clear statement for powerful design. The technical features additionally provide you with more tangible driving pleasure, as the sports suspension tuned for agility and coupled with the Sports Direct-Steer system ensures emphatically dynamic handling.",
+    3: "With the EXCLUSIVE exterior, you can further enhance the elegance of your vehicle and show clearly that you attach importance to style and high quality. The interplay between the design features conveys a particularly high-class impression. The EXCLUSIVE interior shows what is important to you: the ultimate in elegance and first-class quality down to the finest details.",
+    4: "With the AVANTGARDE exterior, you can further enhance the individuality and sportiness of your vehicle, and show clearly that you attach importance to style and high quality. the interplay between the design features results in an extraordinarily expressive vehicle. The lowered suspension ensures the ideal balance between dynamism, comfort and safety."
+};
+
+function changeText_c(id_c) {
+    document.getElementById("description_c").innerHTML = data_c[id_c];
+}
+
+
+    var data_e = {
+    5: "Choose a Design to see more info about this model!",
+    6: "The features forming part of the elegant standard specification exterior include the radiator trim with 3 louvres and the Mercedes star on the bonnet, 40.6cm (16-inch) light-alloy wheels and a 2-piece rear bumper with diffuser-look insert. The modern and high quality interior looks extremely stylish even in its standard specification.",
+    7: "More sportiness and driving pleasure is provided by the AMG Line exterior with perfectly coordinated equipment - from the dynamic AMG bodystyling and the AMG light-alloy wheels through to the lowered AGILITY CONTROL suspension. Hallmark AMG characteristics lend this line visibly and tangibly more sportiness and exclusivity.",
+    8: "The features forming part of the sporty, elegant standard specification exterior include the radiator trim with 3 louvres and the Mercedes star on the bonnet, 43.2cm (17-inch) light-alloy wheels and a 2-piece rear bumper with diffuser-look insert. The modern and high quality interior looks extremely stylish even in its standard specification.",
+    9: "This line gives the exterior a more dynamic and sportier look. The scope of equipment includes larger light-alloy wheels, a separate front bumper and also design elements in chrome and aluminium. 3 colour concepts, a sporty 3-spoke multifunction steering wheel in nappa leather, trapezium-grain aluminium trim elements and comfort seats with horizontal stitching in ARTICO made leather. "
+};
+
+function changeText_e(id_e) {
+    document.getElementById("description_e").innerHTML = data_e[id_e];
+}
+
+
+    var data_s= {
+    10: "Choose a Design to see more info about this model!",
+    11: "The impressive radiator grille with three twin louvres already conveys an impression of exceptional prestige. Newly styled tail lights with a crystal look emphasise the high standard, which can also be experienced inside the vehicle with leather upholstery and emotively appealing ambient lighting.",
+    12: "This optional design and equipment line combines perfectly coordinated features to further enhance the vehicle’s sporty and exclusive character – from dynamic AMG bodystyling with sporty AMG light-alloy wheels and perforated brake disks to the sporty multifunction sports steering whee",
+    13: "Building on the AMG Line, dynamism and exclusivity are taken to even higher levels with a range of selected equipment and appointments. These include for example 50.8 cm (20-inch) AMG light-alloy wheels, AMG sports seats and the AMG Performance steering wheel in nappa leather. ",
+};
+
+function changeText_s(id_s) {
+    document.getElementById("description_s").innerHTML = data_s[id_s];
+}
+
+
+</script>
+
+
+
+</html>

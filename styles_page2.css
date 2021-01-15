@@ -1,0 +1,241 @@
+
+@media only screen and (min-width: 1000px){
+
+
+table, th, td {
+  border: 2px solid white;
+  padding: 5px;
+}
+
+#position_select{
+position:absolute;
+left:355px;
+top:680px;
+}
+
+#info_car{
+position:absolute;
+left:360px;
+top:440px;
+width:100px;
+height:200px;
+}
+
+#info_car2{
+position:absolute;
+left:470px;
+top:440px;
+width:100px;
+height:200px;
+}
+
+
+#logom2{
+position:absolute;
+left:470px;
+top:440px;
+width:90px;
+height:110px;
+}
+
+#logom3{
+position:absolute;
+left:470px;
+top:560px;
+width:90px;
+height:110px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 415px){
+
+.popoleftpa{
+
+}
+
+
+body{
+    background-color:red;
+    color:orange;
+    font-family: "Times New Roman", Times, serif;
+    width:100%;
+}
+
+#logo{
+  position: relative;
+	top: 10px;
+  padding: 20px;
+  color:white;
+  max-width:100%;
+}
+
+.header{
+    background-color:#202020;
+    color:red;
+    width:100%;
+
+
+}
+
+#title{
+     position: static;
+     margin: auto;
+}
+
+#result1{
+  position: relative;
+	top: 10px;
+  text-align:center;
+	width:100%;
+}
+
+.center {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+
+
+.pagination {
+  display: inline-block;
+  position :absolute;
+  top:290px;
+  right:10px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.pagination a.active {
+  background-color:black;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: grey;}
+
+
+.toppane{
+  text-align:center;
+}
+
+.leftpane {
+    width: 33%;
+    height: 750px;
+    float: left;
+    background-color: #282828;
+    border-collapse: separate;
+    position:relative;
+}
+
+.middlepane {
+    width: 34%;
+    height: 750px;
+    float: left;
+    background-color: #282828;
+    border-collapse: separate;
+    position:relative;
+}
+
+.rightpane {
+  width: 33%;
+  height: 750px;
+  position: relative;
+  float: right;
+  background-color: #282828;
+  border-collapse: separate;
+  position:relative;
+}
+
+.models{
+  text-align: center;
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.link_color{
+  color:white;
+}
+
+input[type=submit]{
+  background-color: #555555;
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#position_select{
+position:relative;
+left:130px;
+top:325px;
+}
+
+#description_c, #description_e,#description_s {
+  color:white;
+  text-align: justify;
+  font-size: 21px;
+}
+
+#s_post img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+
+table, th, td {
+  border: 2px solid black;
+  padding: 50px;
+}
+
+#position_select{
+position:absolute;
+left:355px;
+top:680px;
+}
+
+#info_car{
+position:absolute;
+left:360px;
+top:440px;
+width:100px;
+height:200px;
+}
+
+#info_car2{
+position:absolute;
+left:470px;
+top:440px;
+width:100px;
+height:200px;
+}
+
+
+#logom2{
+position:absolute;
+left:470px;
+top:440px;
+width:90px;
+height:110px;
+}
+
+#logom3{
+position:absolute;
+left:470px;
+top:560px;
+width:90px;
+height:110px;
+}
+
+
+
+
+}
